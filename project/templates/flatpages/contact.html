@@ -1,0 +1,11 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+<h1 class="fw-bolder" style="font-size: 6rem;"> {{ flatpage.title }} </h1>
+{% endblock title %}
+
+{% block content %}
+<p class="lead" style="font-size: 0.8rem;">
+    {{ flatpage.content }}
+</p>
+{% endblock content %}
